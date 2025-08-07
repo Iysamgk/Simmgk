@@ -1,0 +1,43 @@
+<!-- post.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Post - Wahala Gist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Wahala Gist</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <article id="post-content">
+      <!-- Blog content will load here -->
+    </article>
+
+    <section id="comments-section">
+      <h3>Comments</h3>
+      <div id="comments"></div>
+      <form id="comment-form">
+        <input type="text" id="name" placeholder="Your name" required>
+        <textarea id="comment" placeholder="Your comment..." required></textarea>
+        <button type="submit">Post Comment</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wahala Gist</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
